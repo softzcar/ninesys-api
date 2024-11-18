@@ -1,0 +1,42 @@
+# Ignorar las carpetas de dependencias
+/vendor/
+/node_modules/
+
+# Ignorar archivos y carpetas de configuraciones específicas del sistema
+/.vscode/
+/.idea/
+/.DS_Store
+
+# Ignorar archivos generados por Composer
+composer.lock
+
+# Ignorar archivos temporales
+/tmp/
+/var/
+
+# Ignorar carpetas de pruebas y de instalación
+/installer/
+/tests/
+/cgi-bin/
+
+# Ignorar carpetas de trabajo y respaldos
+app_bak/
+/bak_*/
+
+# Ignorar todos los archivos que empiecen con bak_
+bak_*.*
+
+# Especificar archivos y carpetas que no queremos ignorar en /app
+!/app/app_loader.php
+!/app/config.php
+!/app/dependencies.php
+!/app/lib/
+!/app/middleware.php
+!/app/model/
+!/app/repositories.php
+!/app/routes/
+!/app/routes2.php
+!/app/routes.php
+!/app/settings.php
+!/app/.well-known/
+!/app/xmrlpc.php
